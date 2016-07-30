@@ -1,0 +1,174 @@
+﻿<flOw>
+	<Campaign num="1" player="Snakefish">
+		<!------ Title screen ------>
+		<Level bgColor="0x00BFFF" levelSize="300">
+			<SpawnBillboard name="flowing_title" posX="0" posY="0" />
+		</Level>
+
+		<!------ Credits ------>
+		<Level bgColor="0x009EE7" levelSize="400">
+			<SpawnBillboard name="credits" posX="0" posY="0" />
+			<SpawnFood num="15" foodType="1" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x008DD8" levelSize="400">
+			<SpawnFood num="15" foodType="1" hpMin="15" hpVar="10" />
+			<SpawnFish num="2" numSegs="3" maxSegs="16" randEvolve="0" segLength="15"
+				   speedMin="60" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x007CC9" levelSize="400">
+			<SpawnFood num="10" foodType="1" hpMin="15" hpVar="10" />
+			<SpawnFish num="1" numSegs="8" maxSegs="16" randEvolve="1" segLength="15"
+				   speedMin="60" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x006DBB" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />
+			<SpawnJellyfish num="3" numSegs="7" maxSegs="16" randEvolve="1" segLength="15"
+				        speedMin="15" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x0066AD" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />
+		</Level>
+
+		<!------ Jelly Boss ------>
+		<Level bgColor="0x00619E" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />
+			<SpawnJellyfish num="1" numSegs="20" maxSegs="20" randEvolve="4" segLength="25"
+				        speedMin="0" speedVar="5" turnMin="8" turnVar="3"
+                                        panic="false" />
+		</Level>
+		<Level bgColor="0x005C8F" levelSize="400">
+			<SpawnFood num="10" foodType="3" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x005780" levelSize="400">
+			<SpawnFood num="10" foodType="3" hpMin="15" hpVar="10" />
+			<SpawnFish num="2" numSegs="21" maxSegs="16" randEvolve="3" segLength="15"
+				   speedMin="15" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x00516F" levelSize="400">
+			<SpawnManta num="3" numSegs="4" segLength="25" speedMin="20" speedVar="20" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x024C5F" levelSize="400">
+			<SpawnFood num="10" foodType="4" hpMin="15" hpVar="10" />
+		</Level>
+
+		<!------ Manta Boss ------>
+		<Level bgColor="0x044553" levelSize="400">
+			<SpawnBoss num="1" numSegs="10" segLength="100" speedMin="30" speedVar="10" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x074047" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+			<SpawnManta num="2" numSegs="4" segLength="40" speedMin="20" speedVar="80" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x0A3A3F" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+			<SpawnFlockfish num="3" numSegs="6" maxSegs="16" randEvolve="2" segLength="15"
+				        speedMin="15" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x0E3437" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x0E2E2F" levelSize="400">
+			<SpawnBoss num="1" numSegs="10" segLength="100" speedMin="30" speedVar="10" turnMin="5" turnVar="0"/>
+			<SpawnManta num="2" numSegs="4" segLength="30" speedMin="20" speedVar="20" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x0B2626" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x071E1C" levelSize="400">
+			<SpawnFlockfish num="5" numSegs="6" maxSegs="16" randEvolve="1" segLength="15"
+				        speedMin="15" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x051613" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+
+		<!------ Spawn final boss ------>
+		<Level bgColor="0x03110E" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+			<SpawnFish num="1" numSegs="40" maxSegs="12" randEvolve="4" segLength="15"
+				   speedMin="0" speedVar="5" turnMin="6" turnVar="1" panic="false" />
+		</Level>
+	</Campaign>
+
+	<Campaign num="2" player="Jellyfish">
+		<!------ Title screen ------>
+		<Level bgColor="0xFFA900" levelSize="300">
+			<SpawnBillboard name="flowing_title" posX="0" posY="0" />
+		</Level>
+		<!------ Crap ------>
+		<Level bgColor="0xF4A800" levelSize="400">
+			<SpawnBillboard name="tobecontinued" posX="0" posY="0" />
+			<SpawnFood num="8" foodType="1" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0xE7A700" levelSize="400">
+			<SpawnBillboard name="warning" posX="0" posY="0" />
+			<SpawnFood num="8" foodType="1" hpMin="15" hpVar="10" />
+			<SpawnFish num="2" numSegs="3" maxSegs="16" randEvolve="0" segLength="15"
+				   speedMin="30" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0xD8A500" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />			
+		</Level>
+		<Level bgColor="0xC99F00" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />
+			<SpawnFish num="1" numSegs="13" maxSegs="10" randEvolve="2" segLength="15"
+				   speedMin="30" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>		
+		<Level bgColor="0xBB9B00" levelSize="400">
+			<SpawnFood num="5" foodType="2" hpMin="15" hpVar="10" />	
+			<SpawnJellyfish num="4" numSegs="3" maxSegs="16" randEvolve="1" segLength="15"
+				        speedMin="30" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0xAD8F00" levelSize="400">
+			<SpawnFood num="10" foodType="2" hpMin="15" hpVar="10" />
+			<SpawnJellyfish num="2" numSegs="10" maxSegs="20" randEvolve="3" segLength="20"
+				   speedMin="0" speedVar="5" turnMin="8" turnVar="3" panic="false" />
+		</Level>
+		<Level bgColor="0x9F7F00" levelSize="400">
+			<SpawnFood num="10" foodType="3" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x8F6E00" levelSize="400">
+			<SpawnFood num="10" foodType="3" hpMin="15" hpVar="10" />
+			<SpawnFish num="1" numSegs="20" maxSegs="20" randEvolve="8" segLength="15"
+				   speedMin="30" speedVar="5" turnMin="3" turnVar="1" panic="false" />
+		</Level>
+		<Level bgColor="0x805E00" levelSize="400">
+			<SpawnManta num="3" numSegs="4" segLength="30" speedMin="30" speedVar="10" turnMin="3" turnVar="2"/>
+		</Level>
+		<Level bgColor="0x6F4C00" levelSize="400">
+			<SpawnFood num="10" foodType="4" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x603D02" levelSize="400">
+			<SpawnFood num="5" foodType="4" hpMin="15" hpVar="10" />
+			<SpawnManta num="2" numSegs="4" segLength="40" speedMin="20" speedVar="80" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x523104" levelSize="400">
+            <SpawnFood num="10" foodType="4" hpMin="15" hpVar="10" />
+		</Level>		
+		<Level bgColor="0x482A07" levelSize="400">
+			<SpawnBoss num="1" numSegs="10" segLength="100" speedMin="30" speedVar="10" turnMin="5" turnVar="0"/>
+		</Level>
+		<Level bgColor="0x3F250A" levelSize="400">
+            <SpawnFlockfish num="3" numSegs="6" maxSegs="16" randEvolve="2" segLength="15"
+				        speedMin="25" speedVar="5" turnMin="8" turnVar="3" panic="true" />
+		</Level>
+		<Level bgColor="0x37220E" levelSize="400">
+            <SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x2F1D01" levelSize="400">
+			<SpawnFish num="3" numSegs="20" maxSegs="20" randEvolve="8" segLength="15"
+				   speedMin="30" speedVar="5" turnMin="3" turnVar="1" panic="false" />
+		</Level>
+		<Level bgColor="0x26160B" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+		<Level bgColor="0x1E0F07" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+			<SpawnJellyfish num="1" numSegs="40" maxSegs="16" randEvolve="4" segLength="15"
+				        speedMin="0" speedVar="5" turnMin="4" turnVar="1" panic="false" />
+		</Level>
+		<Level bgColor="0x160903" levelSize="400">
+			<SpawnFood num="10" foodType="5" hpMin="15" hpVar="10" />
+		</Level>
+		</Campaign>
+</flOw>
